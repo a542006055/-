@@ -1,0 +1,86 @@
+﻿/*----------------------------------------- css intro 说明部分 -------------------------------------------*/
+/* iphone版微信内置浏览器工具栏高度为128像素(ip4-ip6/设备像素比x2)/192像素(ip6plus/设备像素比x3)，经过设备像素比缩放后都折算成64像素 */
+/* iphone4 screen:320x480/weixin:320x416 */
+/* iphone5 screen:320x568/weixin:320x504 */
+/* iphone6 screen:375x667/weixin:375x603 */
+/* iphone6plus screen:414×736/weixin:414x672 */
+/* 安卓版微信/*
+/* android 16:9 screen:360x640/weixin:360x567 */
+/* android 16:9 2k screen:412x732/weibo:412x660 */
+/* android not 16:9 720p screen:360x592/weixin:360x519 */
+/* android not 16:9 1080p screen:360x604/weixin:360x531 */
+
+/*iphone版微博APP内置浏览器上下工具栏高度为216像素(设备像素比x2)/324像素(ip6plus/设备像素比x3)，经过设备像素比缩放后都折算成108像素,此数据与safari浏览器保持一致；android版微博工具栏高度是180像素；*/
+/*iphone4/4s:640x744(320x372) */
+/*iphone5/5s:640x920(320x460) */
+/*iphone6:750x1118(375x559) */
+/*iphone6plus:1242×1884（414x628）*/
+/* 安卓版微博/*
+/* android 16:9 screen:360x640/weibo:360x528 */
+/* android not 16:9 720p screen:360x592/weibo:360x480 */
+/* android not 16:9 1080p screen:360x604/weixin:360x492 */
+
+
+/* 安卓手机物理分辨率 /*
+/* android 480P screen:480x854 */
+/* android 540P screen:540x960 */
+/* android 720P screen:720x1280 */
+/* android 1080P screen:1080x1920 */
+/* android 2K screen:1440x2560 */
+/* android 4K screen:2160x3840 */
+/* android 480P not 16：9 screen:480x800 */
+/* android 540P not 16：9 screen:540x906 */
+/* android 720P not 16：9 screen:720x1184 */
+/* android 1080P not 16：9 screen:1080x1776 */
+
+
+/* media iphone6 width=750px /*
+@media screen{html{font-size:42.67px;}}
+@media screen and (min-width:320px){html{font-size:42.67px;}}
+@media screen and (min-width:360px){html{font-size:48px;}}
+@media screen and (min-width:375px){html{font-size:50px;}}
+@media screen and (min-width:414px){html{font-size:55.2px;}}
+@media screen and (min-width:480px){html{font-size:64px;}}
+@media screen and (min-width:540px){html{font-size:72px;}}
+@media screen and (min-width:720px){html{font-size:96px;}}
+@media screen and (min-width:750px){html{font-size:100px;}}
+@media screen and (min-width:768px){html{font-size:102.4px;}}
+@media screen and (min-width:1080px){html{font-size:144px;}}
+@media screen and (min-width:1440px){html{font-size:192px;}}
+@media screen and (min-width:2160px){html{font-size:288px;}}
+
+
+
+//----------------------------------------------------横屏
+/* iphone5 screen:568x320 /weixin:568x268 */
+/* iphone6 screen:667x375 /weixin:667x323 */
+/* iphone6plus screen:736x414 /weixin:736x362 */
+/* android 16:9 screen:640x360 /weixin:640x295 */
+/* android 16:9 2k screen:732x412/weibo:732x338 */
+/* android not 16:9 screen:598x360 /weixin:598x295 */
+
+
+/* 横屏media: iphone5 width=1136px 为基准 */
+html{font-size: 50px;}
+@media screen and (min-width: 480px) { html{font-size: 42.253px;}}
+@media screen and (min-width: 568px) { html{font-size: 50px;}}
+@media screen and (min-width: 598px) { html{font-size: 52.641px;}}
+@media screen and (min-width: 640px) { html{font-size: 56.338px;}}
+@media screen and (min-width: 667px) { html{font-size: 58.714px;}}
+@media screen and (min-width: 736px) { html{font-size: 64.789px;}}
+@media screen and (min-width: 800px) { html{font-size: 70.422px;}}
+@media screen and (min-width: 854px) { html{font-size: 75.176px;}}
+@media screen and (min-width: 960px) { html{font-size: 84.507px;}}
+@media screen and (min-width: 1024px) { html{font-size: 90.141px;}}
+@media screen and (min-width: 1136px) { html{font-size: 100px;}}
+@media screen and (min-width: 1280px) { html{font-size: 112.676px;}}
+@media screen and (min-width: 1920px) { html{font-size: 169.014px;}}
+@media screen and (min-width: 2560px) { html{font-size: 225.352px;}}
+@media screen and (min-width: 3840px) { html{font-size: 338.028px;}}
+
+浏览器标识：
+ios：
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1
+
+android：
+Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.23 Mobile Safari/537.36

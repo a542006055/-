@@ -1,0 +1,104 @@
+/* ---------------------------------------- css content 内容部分（针对16:9标准屏）----------------------------------------*/
+
+.index{perspective:5rem; overflow: hidden;}
+.index .bg{background: #071c51;position: absolute;left: 0;top:0;width: 100%;height: 100%;}
+.index .txts{color: #fff;position: absolute;left: 1.3rem;top:.8rem;font-weight: bold;transform:translate3d(0,0,0.3rem); }
+.index .txts div{opacity: 0}
+.index .txt1{font-size: .38rem;line-height: .4rem;}
+.index .txt2{font-size: .16rem;line-height: .16rem;margin-top: .15rem; }
+.index .txt3{font-size: .36rem;line-height: .36rem;margin-top: .34rem;}
+.index .txtimg{position: absolute;;width: 5.5rem;height: 4.9rem;right: .3rem;top:1.75rem; pointer-events:none; transform:translate3d(0,0,1.2rem) scale(0.8);}
+.index .txtimg i{background-image: url(../images/txtimg.png);width: 5.5rem;height: 4.9rem;display: inline-block; transform: scale(0);}
+.index .txt4{font-size: .26rem;line-height: .28rem;color: #fff;position: absolute;top:6.1rem;width: 100%;left: 0;text-align: center;transform:translate3d(0,0,0); opacity: 0}
+.index .txt4 span{font-size: .38rem;line-height: .4rem;font-weight: bold;display: block;padding-bottom: .2rem;}
+
+.btn {width: 2.23rem;height: 2.23rem;border-radius: 100%;position: absolute;left: 50%;top:6.7rem;margin-left: -1.16rem;z-index: 4;transform:translate3d(0,0,0.8rem); display: none;}
+.btn .bg1{background-image: url(../images/btn_bg1.png);width:100%;height:100%;border-radius: 100%;position: absolute;left: 0;top:0;}
+.btn .bg2{background-image: url(../images/btn_bg2.png);width:1.49rem;height:1.49rem;border-radius: 100%;position: absolute;left: 50%;top:50%;margin-left: -.75rem;margin-top: -.75rem;}
+.btn .i_play{background-image: url(../images/i_play.png);width: 1.49rem;height: 1.49rem;position: absolute;border-radius: 100%;left: 50%;top:50%;margin-left: -.75rem;margin-top: -.75rem;}
+.btn .i_avtar{background-image: url(../images/i_avtar.png);width: 1.49rem;height: 1.49rem;position: absolute;border-radius: 100%;left: 50%;top:50%;margin-left: -.75rem;margin-top: -.75rem;}
+
+.stage{width: 100%;height: 100%;position: absolute;left: 0;top:0;transform-style:preserve-3d;}
+
+.index .block1{position: absolute;left: -2.55rem;bottom:-3rem;  background-image: url(../images/b1.png);width: 6.4rem;height: 4.27rem; pointer-events:none; transform:translate3d(0,0,0.1rem) scale(1); transform-origin: 0% 100%;}
+.index .block2{position: absolute;right: -1.15rem;bottom:-2.37rem;  background-image: url(../images/b2.png);width: 5.3rem;height: 5.5rem; pointer-events:none; transform:translate3d(0,0,0.3rem) scale(1); transform-origin: 100% 100%;}
+.index .shadow{background-image: url(../images/shadow.png);width: 6.3rem;height: 4.7rem;position: absolute;left: -3.2rem;bottom: -2.2rem; pointer-events:none; transform:translate3d(0,0,0.1rem) scale(1.6); transform-origin: 0% 100%;}
+
+.stage>span.bubble{ display:block; position:absolute; will-change:transform; display: none;}
+.stage>span.bubble i{display:block; width: 100%; height: 100%;}
+.stage>span:nth-child(1){ width: 1.03rem;height:1.3rem; transform:translate3d(0,0,2rem) ; }
+.stage>span:nth-child(1) i{background-image: url(../images/piece1.png); transform-origin: 0% 0%; transform: scale(0.6);}
+.stage>span:nth-child(2){ width: .47rem; height:1.05rem;transform:translate3d(0,0,0.8rem)   }
+.stage>span:nth-child(2) i{background-image: url(../images/piece2.png);}
+.stage>span:nth-child(3){width: .22rem; height:.36rem; transform:translate3d(0,0,0rem) ;  }
+.stage>span:nth-child(3) i{background-image: url(../images/piece3.png);}
+.stage>span:nth-child(4){width: .37rem; height:.73rem; transform:translate3d(0,0,1rem);  }
+.stage>span:nth-child(4) i{background-image: url(../images/piece4.png);}
+.stage>span:nth-child(5){ width: .3rem;  height:.46rem; transform:translate3d(0,0,0.1rem)  }
+.stage>span:nth-child(5) i{background-image: url(../images/piece5.png);}
+.stage>span:nth-child(6){width: .33rem; height:.57rem; transform:translate3d(0,0,0.1rem)  }
+.stage>span:nth-child(6) i{background-image: url(../images/piece6.png);}
+.stage>span:nth-child(7){width: .45rem; height:.72rem; transform:translate3d(0,0,2rem)  }
+.stage>span:nth-child(7) i{background-image: url(../images/piece7.png);}
+.stage>span:nth-child(8){ width: .31rem; height:.37rem; transform:translate3d(0,0,1rem)   }
+.stage>span:nth-child(8) i{background-image: url(../images/piece8.png);}
+.stage>span:nth-child(9){ width: .27rem; height:.36rem; transform:translate3d(0,0,0rem)   }
+.stage>span:nth-child(9) i{background-image: url(../images/piece9.png);}
+.stage>span:nth-child(10){width: .32rem; height:.66rem; transform:translate3d(0,0,0rem)   }
+.stage>span:nth-child(10) i{background-image: url(../images/piece10.png);}
+.stage>span:nth-child(11){width: .17rem; height:.23rem; transform:translate3d(0,0,0.1rem)   }
+.stage>span:nth-child(11) i{background-image: url(../images/piece11.png);}
+.stage>span:nth-child(12){width: .17rem; height:.35rem; transform:translate3d(0,0,0.1rem)  }
+.stage>span:nth-child(12) i{background-image: url(../images/piece12.png);}
+.stage>span:nth-child(13){;width: .17rem; height:.23rem; transform:translate3d(0,0,0.6rem)  }
+.stage>span:nth-child(13) i{background-image: url(../images/piece13.png);}
+
+
+
+
+/*.ani_txtimg{-webkit-animation:ani_txtimg .5s   ;}
+@-webkit-keyframes ani_txtimg{
+	0%{-webkit-transform:scale(0);}
+	100%{-webkit-transform:scale(1);}
+}*/
+
+.ani_play{-webkit-animation:ani_play 1s ease infinite alternate;}
+@-webkit-keyframes ani_play{
+	0%{-webkit-transform:scale(1); -webkit-filter: brightness(1);}
+	100%{-webkit-transform:scale(1); -webkit-filter:  brightness(2);}
+}
+
+.ani_rotate{-webkit-animation:ani_rotate 3s linear infinite ;}
+
+@-webkit-keyframes ani_rotate{
+	0%{-webkit-transform:rotate(0);}
+	100%{-webkit-transform:rotate(360deg);}
+}
+
+
+
+.hide{display: none;}
+/*---------------------------------------- css media 适配部分（针对iphone4） ----------------------------------------------*/
+@media screen and (device-width:320px) and (device-height:480px), screen and (device-width:540px) and (device-height:702px){
+
+}
+
+/*---------------------------------------- css media 适配部分（针对iphone6） ----------------------------------------*/
+@media screen and (device-width:375px) and (device-height:667px), screen and (device-width:540px) and (device-height:868px){
+
+}
+
+/*---------------------------------------- css media 适配部分（针对iphone6 plus） -----------------------------------*/
+@media screen and (device-width:414px) and (device-height:736px) and (-webkit-min-device-pixel-ratio:3), screen and (device-width:540px) and (device-height:876px){
+
+}
+
+/*---------------------------------------- css media 适配部分（针对android）----------------------*/
+@media screen and (min-width:720px), screen and (device-width:360px), screen and (device-width:412px) and (-webkit-min-device-pixel-ratio:3.5){
+
+}
+
+/*---------------------------------------- css media 适配部分（针对使用虚拟系统按键的android）----------------------*/
+@media screen and (device-width:720px) and (max-height:960px), screen and (device-width:1080px) and (max-height:1440px), screen and (device-width:1440px) and (max-height:1920px), screen and (device-width:360px) and (max-height:560px), screen and (device-width:412px) and (max-height:690px) and (-webkit-min-device-pixel-ratio:3.5), screen and (device-width:540px) and (device-height:780px){
+
+}
