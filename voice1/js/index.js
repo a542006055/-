@@ -73,7 +73,7 @@ $(document).ready(function () {
 		$('.txt2').css({ y: -50, opacity: 0, transform: 'translate3d(0,0,0.5rem)' }).show().transition({ y: 0, opacity: 1, transform: 'translate3d(0,0,0.5rem)', delay: 200 }, 750);
 		$('.txt3').css({ y: -50, opacity: 0, transform: 'translate3d(0,0,0.5rem)' }).show().transition({ y: 0, opacity: 1, transform: 'translate3d(0,0,0.5rem)', delay: 400 }, 750);
 
-		$('.ani_txtimg').css({ scale: 0 }).transition({ scale: 1, delay: 600 }, 750).transition({ scale: 0.7 }, 100).transition({ scale: 0.9 }, 100).transition({ scale: 0.8 }, 100);
+		$('.ani_txtimg').css({ scale: 0 }).transition({ scale: 0.85, delay: 600 }, 750);
 
 		$('.txt4').css({ y: -50, opacity: 0, transform: 'translate3d(0,0,0.5rem)' }).show().transition({ y: 0, opacity: 1, transform: 'translate3d(0,0,0.5rem)', delay: 1000 }, 750);
 		$('.btn').css({ y: 300 }).show().transition({ y: 0, transform: 'translate3d(0,0,1rem)', delay: 1000 }, 1000);
