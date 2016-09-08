@@ -1,0 +1,25 @@
+/* 横屏media: iphone5 width=1136px */
+@media screen and (min-width: 480px) { html{font-size: 42.253px;}}
+@media screen and (min-width: 568px) { html{font-size: 50px;}}
+@media screen and (min-width: 598px) { html{font-size: 52.641px;}}
+@media screen and (min-width: 640px) { html{font-size: 56.338px;}}
+@media screen and (min-width: 667px) { html{font-size: 58.714px;}}
+@media screen and (min-width: 732px) {html{font-size: 64.437px;}}
+@media screen and (min-width: 736px) { html{font-size: 64.789px;}}
+@media screen and (min-width: 800px) { html{font-size: 70.422px;}}
+@media screen and (min-width: 854px) { html{font-size: 75.176px;}}
+@media screen and (min-width: 960px) { html{font-size: 84.507px;}}
+@media screen and (min-width: 1024px) { html{font-size: 90.141px;}}
+@media screen and (min-width: 1136px) { html{font-size: 100px;}}
+@media screen and (min-width: 1280px) { html{font-size: 112.676px;}}
+@media screen and (min-width: 1920px) { html{font-size: 169.014px;}}
+@media screen and (min-width: 2560px) { html{font-size: 225.352px;}}
+@media screen and (min-width: 3840px) { html{font-size: 338.028px;}}
+
+/* 横屏翻转提示浮层 */
+aside.turnBoxLandscape{ position:fixed; left:0; top:0; width:100%; height:100%; background:#000; z-index:999; display: none;}
+aside.turnBoxLandscape>img.turn{ display:block; padding-top: 3rem; margin:0 auto 0.4rem; width:50%;}
+aside.turnBoxLandscape>p{ text-align:center; font-size:0.3rem; color:#fff;}
+
+/* 取代系统alert的警告提示弹窗 */
+aside.alertBox>div{width:50%;}

@@ -1,0 +1,81 @@
+/* ---------------------------------------- css content 内容部分（针对16:9标准屏）----------------------------------------*/
+#layaContainer{position: absolute;left: 0;top:0;}
+section{position: absolute;width: 100%;height: 100%;left: 0;top:0;z-index: 3}
+
+
+.toolBar{position: fixed;left: .78rem;top: 0.26rem;right: .3rem;z-index: 100;overflow: hidden;}
+.toolBar>div{font-size: 0.24rem;}
+.toolBar .scoreUI{float: left;}
+.toolBar .scoreUI span{font-size: 0.24rem}
+.toolBar .timeUI{float: right;font-size: .24rem;width: .48rem;text-align: right;}
+.toolBar .line{float: right;margin-right: .2rem;width: 2.2rem;background:#7d7c7c;border: #fff 2px solid;border-radius: 10px;height: .18rem;-webkit-box-sizing:border-box;margin-top: .03rem}
+.toolBar .line span{background-image: url(../images/game/line.png);-webkit-transition:all 1s linear;width:100%;height: .12rem;background-size: 100% .12rem;display: inline-block;vertical-align: top;border-radius: .12rem;}
+.toolBar .timeUI .time{font-size: .24rem;vertical-align: middle;}
+.timetxt{float: right;font-size: .24rem}
+
+.add{position: absolute;color: #fff;font-size: .7rem;left:0;text-align: center;width: 100%;z-index: 2;top:5.8rem;}
+.add span{font-size: .7rem;}
+
+.results{background:#fff url(../images/award/resBg.jpg) no-repeat;background-size: 100% 10.3rem;height: 100%;position: absolute;width: 100%;}
+.results .score{color: #fff;font-size: .36rem;width: 2.3rem;height: .58rem;line-height: .58rem;text-align: center;margin: 2.33rem auto 0}
+.results .score strong{font-size: .36rem;}
+.results .score span{font-size: .36rem;font-family: "helvetica"}
+.results .txt3{color: #d7000f;font-size: .3rem;text-align: center;padding-top: .5rem;}
+.results .dotlist{position: absolute;top:1.06rem;left: 1.6rem;}
+.results .dot1{background-image: url(../images/award/dot1.png);position: absolute;-webkit-transform: scale(0);opacity: 1}
+.results .dot2,.results .dot3{background-image: url(../images/award/dot2.png);position: absolute;-webkit-transform: scale(0);opacity: 1}
+.results .dot1{left:.08rem;top:.25rem;width: .96rem;height: .85rem;-webkit-animation-delay:.4s;}
+.results .dot2{left:.95rem;top:0rem;width: 1.63rem;height: 1.44rem;-webkit-animation-delay:1s}
+.results .dot3{left: 2.65rem;top:.38rem;width: 1.02rem;height: .9rem;}
+.results .get{width: 1.8rem;font-weight: bold;;display:block;margin: 2.27rem auto 0;text-align: center;font-size: .27rem;color: #fedf21;text-shadow:#000 1px 1px 1px ;}
+.results .get div{font-size: .27rem;color: #fedf21;font-family: "黑体"}
+.aniarr{-webkit-animation:aniarr 1s  infinite linear;}
+@-webkit-keyframes aniarr{
+	0%{-webkit-transform:translateX(0)}
+	50%{-webkit-transform:translateX(.2rem)}
+	100%{-webkit-transform:translateX(0)}
+}
+/*award*/
+.hb{background-image: url(../images/award/bg.jpg);position: absolute;width: 100%;height: 100%;left: 0;top:0;}
+.hb .txt1{background-image: url(../images/award/txt1.png);width: 4.7rem;height: .85rem;float: right;margin-right: .3rem}
+.hb .txt2{background-image: url(../images/award/txt2.png);width: 3.85rem;height: .75rem;margin: .55rem auto .46rem;}
+.hb .hbCont{background-image: url(../images/award/hb2.png);position: relative;width: 2.07rem;height: 1.96rem;margin: 0 auto;}
+.hb .hb1{background-image: url(../images/award/hb1.png);width: .99rem;height: .85rem;position: absolute;top:-.16rem;left: -1.5rem;}
+.hb .txt3{width: .72rem;margin: .3rem auto .56rem;}
+.hb .txt4{text-align: center;font-size: .18rem;color: #fff;}
+.hb .duihuan{background: #fff;font-size: .17rem;color: #ff2332;margin: .1rem auto;padding: 0 .1rem;height: .35rem;line-height: .35rem;display: inline-block;}
+.hb .duihuan span{font-size: .17rem;}
+.hb .txt5{text-align: center;width: 3.92rem;margin: 0 auto;}
+.hb .txt5 img{width: 100%;margin-top: .4rem}
+.hb .tips{background-image: url(../images/award/tips.png);width: 4.43rem;height: 1.93rem;display: block;margin: 0 auto;}
+.hb .btnRestart{background-image: url(../images/award/btn.png);width: 1.93rem;height: .88rem;margin: .56rem auto .24rem;display: block;}
+
+
+
+
+
+.hide{display: none;}
+/*---------------------------------------- css media 适配部分（针对iphone4） ----------------------------------------------*/
+@media screen and (device-width:320px) and (device-height:480px), screen and (device-width:540px) and (device-height:702px){
+
+}
+
+/*---------------------------------------- css media 适配部分（针对iphone6） ----------------------------------------*/
+@media screen and (device-width:375px) and (device-height:667px), screen and (device-width:540px) and (device-height:868px){
+
+}
+
+/*---------------------------------------- css media 适配部分（针对iphone6 plus） -----------------------------------*/
+@media screen and (device-width:414px) and (device-height:736px) and (-webkit-min-device-pixel-ratio:3), screen and (device-width:540px) and (device-height:876px){
+
+}
+
+/*---------------------------------------- css media 适配部分（针对android）----------------------*/
+@media screen and (min-width:720px), screen and (device-width:360px), screen and (device-width:412px) and (-webkit-min-device-pixel-ratio:3.5){
+
+}
+
+/*---------------------------------------- css media 适配部分（针对使用虚拟系统按键的android）----------------------*/
+@media screen and (device-width:720px) and (max-height:960px), screen and (device-width:1080px) and (max-height:1440px), screen and (device-width:1440px) and (max-height:1920px), screen and (device-width:360px) and (max-height:560px), screen and (device-width:412px) and (max-height:690px) and (-webkit-min-device-pixel-ratio:3.5), screen and (device-width:540px) and (device-height:780px){
+
+}
