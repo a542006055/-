@@ -32,7 +32,7 @@ $(document).ready(function () {
 
 	//----------------------------------------加载声音及处理----------------------------------------
 	function sound_handler() {
-		soundList = iaudio.on([{ src: 'sound/sound1.mp3' }]);
+		soundList = iaudio.on([{ src: 'sound/sound1.mp3' }],{webAudio:0});
 	}//end func
 
 
