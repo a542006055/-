@@ -88,7 +88,7 @@ $(document).ready(function () {
 		var txt;
 
 		(function () {
-			Laya.init(stageWidth, stageHeight, Laya.WebGL);
+			Laya.init(stageWidth, stageHeight);
 
 			Laya.stage.alignV = "center";
 			Laya.stage.alignH = "middle";
